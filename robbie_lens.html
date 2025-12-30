@@ -1,43 +1,86 @@
 <!DOCTYPE html>
-<html lang="fr">   
-<head>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acceuil - Robbie Lens photographie</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+  </head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Robbie Lens</title>
-
-    <link href="style.css" rel="stylesheet">      
-
-</head>
-
-
-<body>
-<p>
-   <button>
-    <a href="a-propos.html"> A propos</a>
-</button>
-    <a target="_blank" href="https://for1.xavier-audeon.fr/a-propos.html"></a>
-  
-        <a href="contact.html">Contact</a>
-        <h1>Photographie</h1>
-        <div class="bannière">
- <h1>
-    Robbie Lens 
-        </div>
-</h1>
-
-<p>
-    <h2>  
-   Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+  <body>
+    <header>
+      <nav>
+        <a href="robbie_lens.html" class="lien-icone">
+          <img src="photo acceuil/logo.png" alt="logo Robbie lens" />
+        </a>
+        <div>
+        <a href="robbie_lens.html">Acceuil</a>
+        <a href="A propos.html">A propos</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+    </nav>
+</header>
+<main>
+  <section class="accueil-introduction">
+    <div>
+  <h1>Robbie Lens Photographie</h1>
+    <p>
+          Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
         plus de 5 ans maintenant, j’exerce mon métier avec la passion
         qui m’anime : capturer l’essence de chaque instant.
-    </h2>
-</p>
-        <p class="ma-classe"> Robbie Lens</p>
-        <img src="robbie-lens.png" alt="logo de robbie Lens" title="photographie du portrait de robbie Lens">
-        <img src="logo_lens.png" alt="logo de robbie Lens" title="robbie Lens">
-<a target="_blank" href="https://www.instagram.com/kranboard/">
-<img src="instagram.png" alt="Logo instagram">
- </a>
-</p>
-</body>
+    </p>
+        <a href="portfolio.html" class="cta">UN PROJET ? ECRIVEZ-MOI</a>
+        </div>
+         <img src="photo acceuil/robbie-lens.png" alt=" Portrait avec effet de la Photographe Robbie lens"/>
+       </section>
+       <section class="accueil-photos">
+        <h2>Mon dernier projet</h2>
+<div>
+  <img src="photo acceuil/element-1.png" alt="Twelve apostles - Australie">
+  <img src="photo acceuil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande">
+  <img src="photo acceuil/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande">
+</div>
+<div>
+  <img src="photo acceuil/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande">
+  <img src="photo acceuil/element-5.png" alt="Milford Sound - Nouvelle-Zélande">
+  <img src="photo acceuil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande">
+</div>
+       </section>
+       <section id="contact" class="section-contact">
+        <h2>Parlons de votre projets</h2>
+        <form method="get" action="#">
+          <div class="form-nom-email">
+            <div class="form-column">
+              <label for="nom">Nom</label>
+              <input type="email" name="nom" id="nom">
+            </div>
+            <div class="form-column">
+              <label for="email">email</label>
+              <input type="email" name="email" id="email">
+            </div>
+          </div>
+          <label for="message">message</label>
+          <textarea name="message" id="message" rows="10"></textarea>
+          <input type="submit" value="ENVOYER" class="cta">
+        </form>
+       </section>
+      </main>
+      <footer>
+       <a href="robbie_lens.html" class="lien-icone">
+          <img src="photo acceuil/logo.png" alt="logo Robbie lens" />
+        </a>  
+        <a target="_blank"href="photo acceuil/twitter.png"
+          img src="photo acceuil/twitter.png"></a>
+       
+        <a target="_blank" href="https://x.com/Accueil">
+        <img src="photo acceuil/instagram.png" alt="Logo Instagram" />
+        </a>
+    </footer>
+  </body>
+
+
+</html>
