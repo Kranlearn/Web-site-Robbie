@@ -1,40 +1,110 @@
-head{
-    background-color: white;
+* {
+  margin: 0;
 }
 
 body {
-
-    background-color:#1F2039;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
 }
 
-.banniere {
-    padding: 100px;
+a {
+  color: #242424;
+  text-decoration: none;
+}
 
-    background-image: url('paysage4.jpg');
+em {
+  color: #a5b4fc;
+  font-style: normal;
 }
 
 h1 {
-    font-size: 3.5em;
-    color: #ffffffc6;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  color: #f9f8ff;
+}
 
-em {
-    color: #a5b4fc;
-    font-style: normal;
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone {
+  margin-left: 30px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+section {
+  padding: 80px;
+}
+nav a{
+  margin-left: 30px;
+}
+@media screen and (max-width: 996px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
-  
-.ma-classe{
-    color: rgb(255, 255, 255);
+  header nav img {
+margin-bottom: 20px;
 }
-h2{
-    color: rgb(255, 255, 255);
+}
+nav a{
+  margin-bottom: 30px;
 }
 
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+  margin-right: 10px;
+}  
+header,
 footer{
-    background-color: white;
-
+  padding: 20px 20px;
 }
+h1{
+  font-size: 2em;
+}
+section{
+  padding: 50px 20px 50px 20px;
+}
+
